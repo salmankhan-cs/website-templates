@@ -486,6 +486,7 @@ nav ul li a {
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 4rem;
+  padding-block: 3rem;
 }
 
 .explore .bg .content {
