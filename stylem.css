@@ -1,0 +1,139 @@
+@media (max-width: 576px) {
+  .about .image img {
+    max-width: 100%;
+    margin: auto;
+    border-radius: 5px;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about .image {
+    display: flex;
+  }
+  .explore .bg .content .btn {
+    display: block;
+  }
+  .card .cards {
+    margin-top: 4rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card .cards .card1 .card_detail .btn {
+    display: block;
+  }
+  .container {
+    background-color: #e82574;
+  }
+
+  .container ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(188 28 92 / 90%);
+    overflow: hidden;
+    gap: 0;
+  }
+
+  .container ul li {
+    padding: 22px;
+    padding-top: 1;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menuList {
+    transition: all 0.5s;
+  }
+  .btn {
+    display: none;
+  }
+}
+
+@media (min-width: 578px) and (max-width: 768px) {
+  .container {
+    background-color: #e82574;
+  }
+
+  .container ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(188 28 92 / 90%);
+    overflow: hidden;
+    gap: 0;
+  }
+
+  .container ul li {
+    padding: 22px;
+    padding-top: 1;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menuList {
+    transition: all 0.5s;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .booking_container {
+    display: flex;
+  }
+
+  .about .image img {
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .about .image img {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .about {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    padding: 5rem 1rem;
+  }
+
+  .card .cards {
+    margin-top: 4rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card .cards .card1 .card_detail .btn {
+    display: block;
+  }
+  .footer_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .explore .bg .content .btn {
+    display: block;
+  }
+}
+@media (min-width: 769px) {
+  .footer_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
